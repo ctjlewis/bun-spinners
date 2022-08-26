@@ -1,0 +1,19 @@
+{
+  "name": "bun-spinners",
+  "license": "MIT",
+  "version": "0.0.3",
+  "type": "module",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "eslint": "^8.22.0"
+  },
+  "dependencies": {
+    "bun-style": "^0.3.0",
+    "cli-spinners": "^2.7.0"
+  }
+}

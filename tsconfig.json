@@ -1,0 +1,16 @@
+{
+  "strict": true,
+  "compilerOptions": {
+    "noEmit": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": [
+      "ESNext"
+    ],
+    "types": [
+      "bun-types"
+    ]
+  }
+}
