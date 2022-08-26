@@ -15,5 +15,16 @@
   "dependencies": {
     "bun-style": "^0.3.0",
     "cli-spinners": "^2.7.0"
+  },
+  "files": [
+    "tsconfig.json",
+    "bun.lockb",
+    "node_modules.bun",
+    "assets/**/*",
+    "src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctjlewis/bun-spinners.git"
   }
 }
