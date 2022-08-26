@@ -65,7 +65,8 @@ export const spinners = async (
             }
           }
 
-          console.log("\033[H\033[J");
+          // console.log("\033[H\033[J");
+          console.clear();
           console.log(style(`${frameOutput}\n`, ["grey"]));
           await new Promise((resolve) => setTimeout(resolve, interval));
         }
